@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* top */
+
+.top{
+    height: 750px;
+    position: relative;
+    text-align: center;
+}
+.top-bg-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    height: 750px;
+    width: 100%;
+}
+.top-content{
+    position: relative;
+    left: 0;
+}
+.netflix{
+    display: inline-block;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 50px;
+    color: red;
+}
+.nav-bar{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.sign-btn{
+    margin: 15px;
+    background-color: red;
+    border-radius: 7%;
+    color: white;
+    border-color: red;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.centered-content{
+    position: absolute;
+    width: 100%;
+    margin: 190px auto ;
+    text-align: center;
+
+}
+.register{
+    margin: 50px auto 100px auto;
+}
+.big-content{
+    font-size: 330%;
+    margin-bottom: 0;
+}
+h2, h3{
+    font-weight: 100;
+}
+.p1{
+    font-size: 1.3rem;
+}
+.email{
+    width: 44%;
+    margin: 0;
+    padding: 20px;
+}
+.submit{
+    background-color: red;
+    border-color: red;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+
+/* MIDDLE */
+
+
+.middle{
+    height: 1900px;
+}
+.mid{
+    width: 80%;
+    text-align: left;
+    margin: 80px auto 170px auto;
+}
+.img-heading{
+    padding-top: 70px;
+    font-size: 270%;
+    margin-bottom: 0;
+}
+.img-para{
+    line-height: 2;
+    font-size: 1.4rem;
+} 
+.img1{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 100px;
+    border-radius: 4%;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-right: 100px;
+    border-radius: 4%;
+}
+
+/* BOTTOM */
+
+
+.bottom{
+    height: 920px;
+    text-align: center;
+}
+.faq{
+    font-size: 250%;
+    margin: 100px auto 40px auto;
+}
+.block{
+    width: 55%;
+    text-align: left;
+    background-color: rgb(56, 55, 55);
+    padding: 10px;
+    margin: 8px auto;
+    position: relative;
+}
+.material-symbols-outlined{
+    font-size: 1.5cm;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.question{
+    margin-left: 20px;
+    font-size: 140%;
+    letter-spacing: 2px;
+}
+
+/* footer */
+
+.footer{
+    height: 330px;
+    color: grey;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+table{
+    margin: 70px auto;
+    color: grey;
+}
+td{
+    padding: 5px 50px;
+}
+.small{
+    font-size: 0.8rem;
+    line-height: 2;
+}
+#language{
+    font-size: 15px;
+    padding: 8px;
+    background: black;
+    color: white;
+}
+
+/* horizontal rules */
+
+hr{
+    border-width: 0;
+    border-style: none;
+    margin: 0;
+    height: 7px;
+    background: #242323;
+}
