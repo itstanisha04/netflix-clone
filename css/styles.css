@@ -84,10 +84,11 @@ h2, h3{
 
 
 .middle{
-    height: 1900px;
+    height: 1860px;
 }
 .mid{
     width: 80%;
+    height: 230px;
     text-align: left;
     margin: 80px auto 170px auto;
 }
